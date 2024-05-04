@@ -1,0 +1,57 @@
+.appointment-container {
+    display: flex;
+    padding: 20px;
+    background-color: #f3f3f3;
+  }
+  .image-placeholder {
+    flex: 1;
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  .form-container {
+    flex: 1;
+  }
+  #h2a{
+    color:blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #img1{
+    width:fit-content;
+  }
+  form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  form input, form select, form textarea, form button {
+    padding: 10px;
+    margin: 5px 0;
+  }
+  form textarea {
+    grid-column: span 2;
+  }
+  form button {
+    grid-column: span 2;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  footer{
+    padding-bottom: 25vh;
+    background-color: white;
+    color:blue;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+
+  #yo{
+    margin-left: 43vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  a:link{color:blue}
+  a:visited{color:purple}
+  a:hover{color:red}
