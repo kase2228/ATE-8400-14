@@ -192,8 +192,8 @@ header {
 }
 
 .services-images img {
-    max-width: 500px; /* Adjust image width as needed */
-    height: 300px; /* Ensure images don't exceed container width */
+    max-width: 500px;
+    height: 300px;
     border-radius: 5px;
 }
 
@@ -211,7 +211,7 @@ header {
     margin: 10px 0;
     font-size: 24px;
     font-weight: bold;
-    flex: 0 0 50%; /* Each item takes 50% width */
+    flex: 0 0 50%;
 }
 
 .services-details p {
@@ -259,7 +259,7 @@ header {
 }
 
 .specialty-item i {
-    font-size: 48px; /* Adjust icon size as needed */
+    font-size: 48px;
     margin-bottom: 10px;
     color: rgb(21, 95, 206); 
 }
@@ -285,7 +285,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 50px;
-    background-color: rgba(255, 255, 255, 0); /* Adjust the last value (alpha) to control transparency */
+    background-color: rgba(255, 255, 255, 0); 
 }
 
 
@@ -387,25 +387,23 @@ button:hover {
     justify-items: center;
     align-items: center;
     gap: 20px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
 }
 
 .doctor-card {
     background-color: #f9f9f9;
     border-radius: 8px;
     overflow: hidden;
-    width: calc(25% - 20px); /* Set width for each card */
-    margin: 0 10px 20px; /* Adjust margins */
-    display: inline-block; /* Display cards inline */
-    vertical-align: top; /* Align cards to the top of the container */
-    box-sizing: border-box; /* Include padding and border in the width */
-    height: 400px; /* Set height for each card */
+    width: calc(25% - 20px); 
+    margin: 0 10px 20px; 
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box; 
+    height: 400px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    position: relative; /* Add position relative to allow absolute positioning inside */
+    position: relative;
 }
-/* Clear the float after every fourth card */
+
 .doctor-card:nth-child(4n) {
     clear: both;
 }
@@ -424,14 +422,14 @@ button:hover {
 }
 
 .doctor-info {
-    position: absolute; /* Position absolutely within the card */
-    bottom: 0; /* Align to the bottom of the card */
-    left: 0; /* Align to the left side */
-    right: 0; /* Align to the right side */
-    padding: 20px; /* Add padding for spacing */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    color: #ffffff; /* Text color */
-    transition: bottom 0.3s ease; /* Add transition for smooth hover effect */
+    position: absolute; 
+    bottom: 0;
+    left: 0; 
+    right: 0; 
+    padding: 20px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #ffffff;
+    transition: bottom 0.3s ease; 
 }
 
 .doctor-card {
@@ -439,10 +437,10 @@ button:hover {
 }
 
 .doctor-card:hover {
-    background-color: #3498DB; /* Or any other desired blue color */
+    background-color: #3498DB; 
 }
 .doctor-card:hover .doctor-info {
-    bottom: calc(25% - 10px); /* Move up by quarter of the card height */
+    bottom: calc(25% - 10px); 
 }
 
 .social-icons {
@@ -455,20 +453,20 @@ button:hover {
 
 
 .social-icons a {
-    color: #000; /* Default color */
-    text-decoration: none; /* Remove underline */
-    font-size: 24px; /* Icon size */
+    color: #000; 
+    text-decoration: none; 
+    font-size: 24px; 
     display: flex;
-    align-items: center; /* Align icons vertically */
+    align-items: center; 
 }
 .social-icons a:hover {
-    color: #0077b5; /* Change color on hover for LinkedIn */
+    color: #0077b5; 
 }
 .social-icons a:nth-child(2):hover {
-    color: #3b5998; /* Change color on hover for Facebook */
+    color: #3b5998;
 }
 .social-icons a:nth-child(3):hover {
-    color: #e1306c; /* Change color on hover for Instagram */
+    color: #e1306c; 
 }
 .social-icons i {
     margin-right: 5px;
@@ -697,11 +695,11 @@ button:hover {
 }
 .map-section {
     flex: 25% ;
-    margin-right: 20px; /* Add some space between the map and other content */
+    margin-right: 20px; 
 }
 
 .map-section img {
-    width: 400px; /* Adjust the width of the map image as needed */
+    width: 400px; 
 }
 
 .other-content {
